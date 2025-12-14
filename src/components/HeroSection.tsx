@@ -120,12 +120,12 @@ export function HeroSection() {
         >
           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
             <ImageWithFallback
-              src="./public/21a00d34-4736-466e-90c1-3bf2dad66ae9.png"
+              src="./21a00d34-4736-466e-90c1-3bf2dad66ae9.png"
               alt="3D Coding Illustration"
               className="w-full h-auto object-cover"
             />
             {/* Glassmorphism overlay */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-cyan-600/20 backdrop-blur-[2px]" />
+            <div className="absolute from-purple-600/20 to-cyan-600/20 " />
           </div>
 
           {/* Floating accent */}
